@@ -18,9 +18,6 @@ import yt_dlp
 import discord
 import os
 
-if not discord.opus.is_loaded():
-    discord.opus.load_opus("/opt/homebrew/lib/libopus.dylib")
-
 LOG_FILE = "discord.log"
 
 logging.basicConfig(
